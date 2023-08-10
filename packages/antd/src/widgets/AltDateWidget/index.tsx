@@ -121,7 +121,7 @@ export default function AltDateWidget<
     onChange(undefined);
   };
 
-  const renderDateElement = (elemProps: DateElementProps<T, S, F>) => (
+    const renderDateElement = (elemProps: DateElementProps<T, S, F>) => (
     <SelectWidget
       autofocus={elemProps.autofocus}
       className='form-control'

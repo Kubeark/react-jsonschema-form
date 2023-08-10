@@ -3,8 +3,10 @@
   "include": ["src", "types"],
   "compilerOptions": {
     "rootDir": "./src",
+    "outDir": "./lib",
     "baseUrl": "./",
     "paths": {
+      "react": [ "./node_modules/@types/react" ],
       "*": ["src/*", "node_modules/*"]
     },
     "jsx": "react-jsx"

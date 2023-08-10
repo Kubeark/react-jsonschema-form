@@ -79,7 +79,7 @@ export default function FieldTemplate<
       break;
   }
 
-  return (
+    return (
     <WrapIfAdditionalTemplate
       classNames={classNames}
       style={style}
